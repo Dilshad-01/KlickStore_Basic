@@ -132,8 +132,9 @@ The container listens on port 80. nginx serves the static files inside the image
 - Docker image for local practice and EC2 hosting
 
 ## 👨‍💻 Author
-## Mohamed Dilshad KP
+Mohamed Dilshad KP
 
-GitHub: https://github.com/Dilshad-01
-LinkedIn: https://www.linkedin.com/in/mdilshadkp
+- GitHub: https://github.com/Dilshad-01
+- LinkedIn: https://www.linkedin.com/in/mdilshadkp
+- 
 If you found this project helpful, consider giving it a ⭐ on GitHub.
