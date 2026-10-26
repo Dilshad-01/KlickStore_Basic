@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KlickStore - Products</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <a class="brand" href="index.html">
+        <span class="brand-mark">K</span>
+        <h1>KlickStore</h1>
+    </a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<section class="page-intro">
+    <h2>Our Products</h2>
+    <p>Everyday tech that is ready to ship from KlickStore.</p>
+</section>
+
+<section class="products">
+
+    <article class="card">
+        <img src="images/laptop.jpg" alt="Silver laptop on a wooden desk">
+        <h3>Laptop</h3>
+        <p>₹55,000</p>
+        <button type="button" onclick="addCart('Laptop')">Add to Cart</button>
+    </article>
+
+    <article class="card">
+        <img src="images/smartphone.jpg" alt="Black smartphone">
+        <h3>Smartphone</h3>
+        <p>₹25,000</p>
+        <button type="button" onclick="addCart('Smartphone')">Add to Cart</button>
+    </article>
+
+    <article class="card">
+        <img src="images/smartwatch.jpg" alt="White smart watch">
+        <h3>Smart Watch</h3>
+        <p>₹8,000</p>
+        <button type="button" onclick="addCart('Smart Watch')">Add to Cart</button>
+    </article>
+
+    <article class="card">
+        <img src="images/speaker.jpg" alt="Portable bluetooth speaker">
+        <h3>Bluetooth Speaker</h3>
+        <p>₹3,500</p>
+        <button type="button" onclick="addCart('Bluetooth Speaker')">Add to Cart</button>
+    </article>
+
+    <article class="card">
+        <img src="images/mouse.jpg" alt="Wireless computer mouse">
+        <h3>Wireless Mouse</h3>
+        <p>₹900</p>
+        <button type="button" onclick="addCart('Wireless Mouse')">Add to Cart</button>
+    </article>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 KlickStore. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

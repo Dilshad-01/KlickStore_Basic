@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: klickstore:latest
+    container_name: klickstore
+    ports:
+      - "80:80"
+    restart: unless-stopped
