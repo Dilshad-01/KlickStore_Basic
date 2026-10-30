@@ -135,6 +135,5 @@ The container listens on port 80. nginx serves the static files inside the image
 Mohamed Dilshad KP
 
 - GitHub: https://github.com/Dilshad-01
-- LinkedIn: https://www.linkedin.com/in/mdilshadkp
-- 
+
 If you found this project helpful, consider giving it a ⭐ on GitHub.
